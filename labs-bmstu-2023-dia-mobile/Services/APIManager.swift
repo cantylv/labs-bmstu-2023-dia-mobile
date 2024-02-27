@@ -1,10 +1,3 @@
-//
-//  APIManager.swift
-//  labs-bmstu-2023-dia-mobile
-//
-//  Created by Dmitriy Permyakov on 11.02.2024.
-//
-
 import Foundation
 
 final class APIManager {

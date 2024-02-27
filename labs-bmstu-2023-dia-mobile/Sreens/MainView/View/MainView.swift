@@ -18,7 +18,7 @@ struct MainView: View {
                     TextField(text: $searchText) {
                         Text("Поиск")
                     }
-                    .padding(8)
+                    .padding(20)
                     .background(.regularMaterial)
                     .clipShape(.rect(cornerRadius: 10))
                     .padding(.horizontal)

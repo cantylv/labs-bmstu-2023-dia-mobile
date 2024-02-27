@@ -57,7 +57,6 @@ private extension String {
         if let date = dateFormatter.date(from: dateString) {
             dateFormatter.dateFormat = "dd/MM/yyyy в HH:mm"
             let formattedDate = dateFormatter.string(from: date)
-            print(formattedDate)
             return formattedDate
         } else {
             print("Неверный формат даты")
